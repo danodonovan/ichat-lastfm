@@ -15,7 +15,7 @@ from subprocess import call
 import tempfile
 
 # Set last.fm username here
-username = 'indiedan'
+username = 'yourusername'
 
 rss_url = "http://ws.audioscrobbler.com/2.0/user/%s/recenttracks.rss" % username
 
