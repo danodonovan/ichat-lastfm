@@ -37,11 +37,4 @@ tell application "System Events"
     if exists process "iChat" then tell application "iChat" to set the status message to message
 end tell""" % message
 
-# if exists process "Adium" then tell application "Adium" to set status message of every account to message            
-# print osascript
-
-# with tempfile.NamedTemporaryFile() as f:
-#     f.write(osascript)
-
 sts = call(["/usr/bin/osascript", "-e", osascript], shell=False)
-
