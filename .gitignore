@@ -13,6 +13,9 @@ build/*
 *.xcworkspace
 xcuserdata
 
+# vim undo files
+*.un~
+
 # svn & cvs
 .svn
 CVS
